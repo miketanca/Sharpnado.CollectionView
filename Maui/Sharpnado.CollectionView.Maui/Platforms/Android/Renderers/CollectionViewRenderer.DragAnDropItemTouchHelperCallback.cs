@@ -6,8 +6,8 @@ using Android.Runtime;
 using AndroidX.RecyclerView.Widget;
 
 using Sharpnado.CollectionView.ViewModels;
-
-using Xamarin.Forms;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui;
 
 namespace Sharpnado.CollectionView.Droid.Renderers
 {

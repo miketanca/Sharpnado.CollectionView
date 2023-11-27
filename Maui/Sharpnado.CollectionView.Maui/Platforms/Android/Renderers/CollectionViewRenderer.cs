@@ -12,11 +12,11 @@ using Microsoft.Maui.Controls.Platform;
 
 using Sharpnado.CollectionView;
 using Sharpnado.CollectionView.Droid.Helpers;
-using Xamarin.Forms;
-using Xamarin.Forms.Platform.Android;
 
 using CollectionView = Sharpnado.CollectionView.CollectionView;
 using GridLayoutManager = AndroidX.RecyclerView.Widget.GridLayoutManager;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui;
 
 #if !NET6_0_OR_GREATER
 [assembly: ExportRenderer(typeof(CollectionView), typeof(CollectionViewRenderer))]

@@ -2,9 +2,9 @@
 
 using Android.Views;
 
-using Xamarin.Forms;
-
 using View = Android.Views.View;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui;
 
 namespace Sharpnado.CollectionView.Droid.Renderers
 {
